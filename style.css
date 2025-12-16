@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a, nav button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.hero img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.content img {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Login */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
